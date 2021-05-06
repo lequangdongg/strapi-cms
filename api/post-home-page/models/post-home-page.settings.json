@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "post_home_pages",
+  "info": {
+    "name": "PostHomePage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "tag": {
+      "type": "enumeration",
+      "enum": [
+        "social",
+        "new"
+      ]
+    }
+  }
+}
