@@ -1,0 +1,8 @@
+{
+  "provider": "cloudinary",
+  "providerOptions": {
+    "cloud_name": "blog-detail-vercel-app",
+    "api_key": "131399776918838",
+    "api_secret": "6bPrKH_f4lHkvWWyHrMkFA4qgWU"
+  }
+}
